@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+* { box-sizing: border-box; }
+
+body { font: 100% "Montserrat", sans-serif; margin: 0; color: #a8a8a9; }
+
+figure { margin: 0; }
+
+ul, li { list-style: none; }
+
+.container header { text-align: center; }
+
+.content { margin-top: 3em; padding: 0 40px 1em 100px; }
+
+.content .mockup_browser { max-width: 1800px; margin: 0 auto; }
+
+.mockup_navbar { display: flex; justify-content: space-between; align-items: center; font-weight: 600; height: 100px; }
+
+.mockup_navbar .navbar_logo { font-size: 1.5em; }
+
+.mockup_navbar .navbar_menu { display: flex; }
+
+.mockup_navbar .navbar_menu li { padding: 0 10px; }
+
+.mockup_section { padding: 80px 0; min-height: 300px; }
+
+.mockup_content { max-width: 1100px; margin: 0 auto; padding: 0 2em; }
+
+.mockup_grid { display: flex; flex-wrap: wrap; }
+
+.mockup_grid .mockup_grid_item { position: relative; }
+
+.mockup_width_half { width: 50%; }
+
+.mockup_width_third { width: 33%; }
+
+.mockup_width_forth { width: 25%; }
+
+.mockup_image { background: rgba(0, 0, 0, 0.08); text-align: center; line-height: 200px; height: 200px; font-size: 40px; color: rgba(0, 0, 0, 0.1); }
+
+.image_large { height: 300px; line-height: 300px; }
+
+.mockup_heading { width: 100%; margin: 0; font-weight: 600; font-size: 1.25em; margin: 30px 0; }
+
+.heading_large { font-size: 3em; margin: 0; }
+
+.mockup_button { border: none; background-color: #a8a8a9; color: #fff; text-transform: uppercase; letter-spacing: 3px; font-size: 0.85em; font-weight: 600; padding: 1.5em 2.5em; white-space: nowrap; }
+
+.customizer { background: #444; position: fixed; max-height: 100%; top: 50%; left: 0; z-index: 10000; padding: 10px; transform: translate3d(0, -50%, 0); border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+
+.customizer .color_tool { padding: 0; font-size: 30px; display: flex; flex-direction: column; align-items: center; }
+
+.customizer .color_tool li { padding: 5px; }
+
+.customizer .color_tool li .drag_element:hover { cursor: move; cursor: grab; }
+
+.customizer .color_tool li .drag_element:active { cursor: grabbing; }
+
+.customizer .color_tool .reset_button { font-size: 20px; border-style: none; background-color: transparent; color: #ffffff; }
+
+.customizer .color_tool .color_1 { color: #fd6868; }
+
+.customizer .color_tool .color_2 { color: #fcb574; }
+
+.customizer .color_tool .color_3 { color: #f0e79a; }
+
+.customizer .color_tool .color_4 { color: #b5c9a2; }
+
+.customizer .color_tool .color_5 { color: #637a5e; }
+
+.customizer .color_tool .color_6 { color: #a5c9f1; }
+
+.customizer .color_tool .color_7 { color: #63648d; }
+
+.customizer .color_tool .color_8 { color: #e5beca; }
+
+.customizer .color_tool .color_9 { color: #cab1d4; }
+
+.customizer .color_tool .color_10 { color: #ffffff; }
+
+.customizer .color_tool .color_11 { color: #2e2e2e; }
