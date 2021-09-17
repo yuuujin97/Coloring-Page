@@ -1,27 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
 * { box-sizing: border-box; }
 
-body { font: 100% "Montserrat", sans-serif; margin: 0; color: #a8a8a9; }
+body { font: 100% "Montserrat", sans-serif; margin: 0; color: #a8a8a9; background-color: #232323; }
 
 figure { margin: 0; }
 
 ul, li { list-style: none; }
 
-.container header { text-align: center; }
+.container header { text-align: center; margin-top: 60px; }
+
+.container header img { width: 70px; }
+
+.container header h1 { margin: 0 0 0.5em 0; }
 
 .content { margin-top: 3em; padding: 0 40px 1em 100px; }
 
 .content .mockup_browser { max-width: 1800px; margin: 0 auto; }
 
-.mockup_navbar { display: flex; justify-content: space-between; align-items: center; font-weight: 600; height: 100px; }
+.mockup_navbar { display: flex; justify-content: space-between; align-items: center; font-weight: 600; height: 120px; }
 
-.mockup_navbar .navbar_logo { font-size: 1.5em; }
+.mockup_navbar .navbar_logo { font-size: 1.75em; }
 
 .mockup_navbar .navbar_menu { display: flex; }
 
 .mockup_navbar .navbar_menu li { padding: 0 10px; }
 
-.mockup_section { padding: 80px 0; min-height: 300px; }
+.mockup_section { padding: 80px 0; min-height: 300px; background-color: #f3f3f3; }
+
+.mockup_section_dark { background-color: #dbdbdb; }
 
 .mockup_content { max-width: 1100px; margin: 0 auto; padding: 0 2em; }
 
