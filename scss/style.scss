@@ -128,6 +128,14 @@ li {
   white-space: nowrap;
 }
 
+.paint_area.hold {
+  box-shadow: $paint_area_border_color;
+}
+
+.paint_text.hold {
+  text-shadow: $paint_text_border_color;
+}
+
 // customizer
 .customizer {
   background: #444;

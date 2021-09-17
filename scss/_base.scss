@@ -7,6 +7,8 @@ $heading_medium: 1.25em;
 
 // Color
 $button_color: #a8a8a9;
+$paint_area_border_color: inset 0 0 0 3px rgb(160, 125, 255);
+$paint_text_border_color: -1px -1px 0 rgba(133, 125, 255, 0.5), 1px -1px 0 rgba(133, 125, 255, 0.5), -1px 1px 0 rgba(133, 125, 255, 0.5), 1px 1px 0 rgba(133, 125, 255, 0.5);
 $color_1: #fd6868;
 $color_2: #fcb574;
 $color_3: #f0e79a;
