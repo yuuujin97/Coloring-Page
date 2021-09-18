@@ -3,9 +3,9 @@
 
 body { font: 100% "Montserrat", sans-serif; margin: 0; color: #a8a8a9; background-color: #232323; }
 
-figure { margin: 0; }
+figure { margin: 0; padding: 0 20px; }
 
-ul, li { list-style: none; }
+ul, li { list-style: none; padding: 0; }
 
 .container header { text-align: center; margin-top: 60px; }
 
@@ -31,9 +31,13 @@ ul, li { list-style: none; }
 
 .mockup_content { max-width: 1100px; margin: 0 auto; padding: 0 2em; }
 
+.mockup_content h2 { margin: 0 0 30px 0; font-size: 2em; }
+
 .mockup_grid { display: flex; flex-wrap: wrap; }
 
 .mockup_grid .mockup_grid_item { position: relative; }
+
+.mockup_grid .mockup_grid_item .mockup_long_text { line-height: 25px; margin: 0 0 20px 0; }
 
 .mockup_width_half { width: 50%; }
 
@@ -47,9 +51,23 @@ ul, li { list-style: none; }
 
 .mockup_heading { width: 100%; margin: 0; font-weight: 600; font-size: 1.25em; margin: 30px 0; }
 
+.mockup_heading_box { padding: 30px; background-color: #a8a8a9; color: #f3f3f3; }
+
 .heading_large { font-size: 3em; margin: 0; }
 
 .mockup_button { border: none; background-color: #a8a8a9; color: #fff; text-transform: uppercase; letter-spacing: 3px; font-size: 0.85em; font-weight: 600; padding: 1.5em 2.5em; white-space: nowrap; }
+
+.mockup_caption { background-color: #f3f3f3; text-align: center; padding: 1.5em; }
+
+.mockup_caption h3 { margin: 0; padding-top: 1em; }
+
+.mockup_pricing { text-align: center; background-color: #fff; padding: 0 0 2.5rem; }
+
+.mockup_pricing p { margin: 20px 0; }
+
+.mockup_list_wrap { padding: 10px 0; margin: 0 0 30px 0; background-color: #dbdbdb; }
+
+.mockup_list_wrap .mockup_list li { padding: 10px 0; }
 
 .paint_area.hold { box-shadow: inset 0 0 0 3px #a07dff; }
 
