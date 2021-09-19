@@ -237,12 +237,11 @@ li {
 
       input::-webkit-color-swatch {
         border: none;
-        border-radius: 45px;
       }
 
       .input_color {
-        width: 35px;
-        height: 38px;
+        width: 33px;
+        height: 33px;
         border: none;
         padding: 0;
         background-color: transparent;
@@ -323,11 +322,18 @@ li {
 
     .color_tool {
       flex-direction: row;
-      align-items: unset;
       margin: 0;
 
       span {
-        padding: 15px 10px 0 0;
+        padding: 0 10px 0 0;
+      }
+
+      li:nth-child(2) {
+        padding-top: 10px;
+      }
+
+      li:last-child {
+        padding-top: 0;
       }
     }
   }

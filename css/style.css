@@ -81,9 +81,9 @@ ul, li { list-style: none; padding: 0; }
 
 .customizer .color_tool li { padding: 5px; }
 
-.customizer .color_tool li input::-webkit-color-swatch { border: none; border-radius: 45px; }
+.customizer .color_tool li input::-webkit-color-swatch { border: none; }
 
-.customizer .color_tool li .input_color { width: 35px; height: 38px; border: none; padding: 0; background-color: transparent; }
+.customizer .color_tool li .input_color { width: 33px; height: 33px; border: none; padding: 0; background-color: transparent; }
 
 .customizer .color_tool li .input_color:hover { cursor: move; cursor: grab; }
 
@@ -102,5 +102,7 @@ ul, li { list-style: none; padding: 0; }
   .mockup_navbar { flex-direction: column; justify-content: center; height: 140px; }
   .mockup_navbar .navbar_logo { margin-top: 10px; }
   .customizer { max-width: 100%; padding: 10px; top: 0; left: 50%; transform: translate3d(-50%, 0, 0); border-top-right-radius: 0px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
-  .customizer .color_tool { flex-direction: row; align-items: unset; margin: 0; }
-  .customizer .color_tool span { padding: 15px 10px 0 0; } }
+  .customizer .color_tool { flex-direction: row; margin: 0; }
+  .customizer .color_tool span { padding: 0 10px 0 0; }
+  .customizer .color_tool li:nth-child(2) { padding-top: 10px; }
+  .customizer .color_tool li:last-child { padding-top: 0; } }
