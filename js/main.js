@@ -1,15 +1,12 @@
 'use strict';
 
-const drag_elements = document.querySelectorAll('.drag_element');
 const areas = document.querySelectorAll('.paint_area');
 const texts = document.querySelectorAll('.paint_text');
+const drag = document.querySelector('.input_color');
 let color;
 
-for (const drag_element of drag_elements) {
-  drag_element.setAttribute('draggable', 'true');
-  drag_element.addEventListener('dragstart', dragStart);
-  drag_element.addEventListener('dragend', dragEnd);
-}
+drag.addEventListener('dragstart', dragStart);
+drag.addEventListener('dragend', dragEnd);
 
 for (const area of areas) {
   area.addEventListener('dragover', dragOver);
@@ -26,11 +23,11 @@ for (const text of texts) {
 }
 
 function dragStart() {
-  color = this.getAttribute('data-color');
+  color = this.value;
 }
 
 function dragEnd() {
-  color = this.getAttribute('data-color');
+  color = this.value;
 }
 
 function dragOver(e) {

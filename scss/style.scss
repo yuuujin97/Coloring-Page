@@ -13,7 +13,7 @@ body {
 
 figure {
   margin: 0;
-  padding: 0 20px;
+  padding: 20px 20px;
 }
 
 ul,
@@ -207,14 +207,20 @@ li {
   background: #444;
   position: fixed;
   max-height: 100%;
+  max-width: 75px;
   top: 50%;
   left: 0;
   z-index: 10000;
-  padding: 10px;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+
+  span {
+    font-weight: 600;
+  }
 
   .color_tool {
     padding: 0;
@@ -222,16 +228,30 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px 0;
 
     li {
       padding: 5px;
 
-      .drag_element:hover {
+      input::-webkit-color-swatch {
+        border: none;
+        border-radius: 45px;
+      }
+
+      .input_color {
+        width: 35px;
+        height: 38px;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+      }
+
+      .input_color:hover {
         cursor: move;
         cursor: grab;
       }
 
-      .drag_element:active {
+      .input_color:active {
         cursor: grabbing;
       }
     }
@@ -240,52 +260,26 @@ li {
       font-size: 20px;
       border-style: none;
       background-color: transparent;
-      color: $color_10;
+      color: #fff;
     }
+  }
+}
 
-    // Colors
-    .color_1 {
-      color: $color_1;
-    }
+@media screen and (max-width: 70em) {
+  .mockup_width_forth {
+    width: 50%;
+  }
+}
 
-    .color_2 {
-      color: $color_2;
-    }
+@media screen and (max-width: 60em) {
+  .mockup_width_third {
+    width: 100%;
+  }
+}
 
-    .color_3 {
-      color: $color_3;
-    }
-
-    .color_4 {
-      color: $color_4;
-    }
-
-    .color_5 {
-      color: $color_5;
-    }
-
-    .color_6 {
-      color: $color_6;
-    }
-
-    .color_7 {
-      color: $color_7;
-    }
-
-    .color_8 {
-      color: $color_8;
-    }
-
-    .color_9 {
-      color: $color_9;
-    }
-
-    .color_10 {
-      color: $color_10;
-    }
-
-    .color_11 {
-      color: $color_11;
-    }
+@media screen and (max-width: 50em) {
+  .mockup_width_forth,
+  .mockup_width_half {
+    width: 100%;
   }
 }

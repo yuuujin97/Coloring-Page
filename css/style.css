@@ -3,7 +3,7 @@
 
 body { font: 100% "Montserrat", sans-serif; margin: 0; color: #a8a8a9; background-color: #232323; }
 
-figure { margin: 0; padding: 0 20px; }
+figure { margin: 0; padding: 20px 20px; }
 
 ul, li { list-style: none; padding: 0; }
 
@@ -73,36 +73,26 @@ ul, li { list-style: none; padding: 0; }
 
 .paint_text.hold { text-shadow: -1px -1px 0 rgba(133, 125, 255, 0.5), 1px -1px 0 rgba(133, 125, 255, 0.5), -1px 1px 0 rgba(133, 125, 255, 0.5), 1px 1px 0 rgba(133, 125, 255, 0.5); }
 
-.customizer { background: #444; position: fixed; max-height: 100%; top: 50%; left: 0; z-index: 10000; padding: 10px; transform: translate3d(0, -50%, 0); border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+.customizer { background: #444; position: fixed; max-height: 100%; max-width: 75px; top: 50%; left: 0; z-index: 10000; padding: 20px 10px 10px 10px; text-align: center; transform: translate3d(0, -50%, 0); border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 
-.customizer .color_tool { padding: 0; font-size: 30px; display: flex; flex-direction: column; align-items: center; }
+.customizer span { font-weight: 600; }
+
+.customizer .color_tool { padding: 0; font-size: 30px; display: flex; flex-direction: column; align-items: center; margin: 20px 0; }
 
 .customizer .color_tool li { padding: 5px; }
 
-.customizer .color_tool li .drag_element:hover { cursor: move; cursor: grab; }
+.customizer .color_tool li input::-webkit-color-swatch { border: none; border-radius: 45px; }
 
-.customizer .color_tool li .drag_element:active { cursor: grabbing; }
+.customizer .color_tool li .input_color { width: 35px; height: 38px; border: none; padding: 0; background-color: transparent; }
 
-.customizer .color_tool .reset_button { font-size: 20px; border-style: none; background-color: transparent; color: #ffffff; }
+.customizer .color_tool li .input_color:hover { cursor: move; cursor: grab; }
 
-.customizer .color_tool .color_1 { color: #fd6868; }
+.customizer .color_tool li .input_color:active { cursor: grabbing; }
 
-.customizer .color_tool .color_2 { color: #fcb574; }
+.customizer .color_tool .reset_button { font-size: 20px; border-style: none; background-color: transparent; color: #fff; }
 
-.customizer .color_tool .color_3 { color: #f0e79a; }
+@media screen and (max-width: 70em) { .mockup_width_forth { width: 50%; } }
 
-.customizer .color_tool .color_4 { color: #b5c9a2; }
+@media screen and (max-width: 60em) { .mockup_width_third { width: 100%; } }
 
-.customizer .color_tool .color_5 { color: #637a5e; }
-
-.customizer .color_tool .color_6 { color: #a5c9f1; }
-
-.customizer .color_tool .color_7 { color: #63648d; }
-
-.customizer .color_tool .color_8 { color: #e5beca; }
-
-.customizer .color_tool .color_9 { color: #cab1d4; }
-
-.customizer .color_tool .color_10 { color: #ffffff; }
-
-.customizer .color_tool .color_11 { color: #2e2e2e; }
+@media screen and (max-width: 50em) { .mockup_width_forth, .mockup_width_half { width: 100%; } }
