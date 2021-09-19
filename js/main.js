@@ -3,6 +3,7 @@
 const areas = document.querySelectorAll('.paint_area');
 const texts = document.querySelectorAll('.paint_text');
 const drag = document.querySelector('.input_color');
+const reset_button = document.querySelector('.reset_button');
 let color;
 
 drag.addEventListener('dragstart', dragStart);
@@ -21,6 +22,8 @@ for (const text of texts) {
   text.addEventListener('dragleave', dragLeave);
   text.addEventListener('drop', dragDrop);
 }
+
+reset_button.addEventListener('click', colorReset);
 
 function dragStart() {
   color = this.value;
@@ -48,5 +51,14 @@ function dragDrop(e) {
     this.style.color = color;
   } else if (this.classList.contains('paint_area')) {
     this.style.backgroundColor = color;
+  }
+}
+
+function colorReset() {
+  for (const area of areas) {
+    area.style.backgroundColor = '';
+  }
+  for (const text of texts) {
+    text.style.color = '';
   }
 }
