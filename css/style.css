@@ -83,11 +83,7 @@ ul, li { list-style: none; padding: 0; }
 
 .customizer .color_tool li input::-webkit-color-swatch { border: none; }
 
-.customizer .color_tool li .input_color { width: 33px; height: 33px; border: none; padding: 0; background-color: transparent; }
-
-.customizer .color_tool li .input_color:hover { cursor: move; cursor: grab; }
-
-.customizer .color_tool li .input_color:active { cursor: grabbing; }
+.customizer .color_tool li .input_color { width: 33px; height: 33px; border: none; padding: 0; background-color: transparent; touch-action: none; user-select: none; }
 
 .customizer .color_tool .reset_button { font-size: 20px; border-style: none; background-color: transparent; color: #fff; }
 

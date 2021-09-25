@@ -245,15 +245,8 @@ li {
         border: none;
         padding: 0;
         background-color: transparent;
-      }
-
-      .input_color:hover {
-        cursor: move;
-        cursor: grab;
-      }
-
-      .input_color:active {
-        cursor: grabbing;
+        touch-action: none;
+        user-select: none;
       }
     }
 
