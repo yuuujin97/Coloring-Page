@@ -6,6 +6,8 @@
 
 ## Coloring Page란
 
+![](./screenshot/test.gif)
+
 사용자가 원하는 색상을 선택한 후 색상을 드래그하여 섹션 또는 텍스트에 색상을 지정하는 사이트입니다.
 
 사용 방법으로는 왼쪽에 있는 Color Pick 영역에 네모 상자를 이용하여 원하는 색상을 선택한 후 그 색상을 끌어서 섹션 또는 텍스트 요소 위로 올리게 되면 보라색 윤곽선이 켜진 영역에 놓을 수 있습니다.
@@ -49,3 +51,10 @@ Color Pick 영역 맨 밑에 있는 물방울 모양을 누르게 되면 전체 
 - Flexbox
 
 ### Screenshot
+
+Desktop ver.
+![](./screenshot/desktop.png)
+
+Mobile ver.
+
+![](./screenshot/mobile.png)
