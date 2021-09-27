@@ -28,7 +28,7 @@ Color Pick 영역 맨 밑에 있는 물방울 모양을 누르게 되면 전체 
 
    > 2021.09.25
    >
-   > 기존의 코드로는 모바일 환경에서 Drag and Drop 기능이 동작하지 않아, 방법을 찾던 중 Drag and Drop, resizing 등등 다양한 기능을 지원하는 라이브러리를 찾아 사용하게 되었다. 라이브러리를 이용하여 PC, Mobile에서 Drag and Drop 동작이 가능하도록 변경하였다.
+   > 기존의 코드로는 모바일 환경에서 Drag and Drop 기능이 동작하지 않아, 방법을 찾던 중 Drag and Drop, resizing 등등 다양한 기능을 지원하는 라이브러리를 찾아 사용하게 되어 PC, Mobile에서 Drag and Drop 동작이 가능하도록 변경함
 
    📚사용한 라이브러리 : https://interactjs.io/
 
